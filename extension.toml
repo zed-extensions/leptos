@@ -1,0 +1,12 @@
+name = "Leptos RSTML"
+id = "rstml"
+version = "0.1.0"
+schema_version = 1
+description = "Support for Leptos RSTML in Zed"
+authors = ["Ben Kunkle <ben@zed.dev>"]
+repository = "https://github.com/zed-extensions/leptos"
+
+[grammars.rstml]
+repository = "https://github.com/rayliwell/tree-sitter-rstml"
+commit = "4ab78c0bb76735dbf4e1bd1a2ec43e953949edb7"
+path = "rstml"
