@@ -8,4 +8,4 @@
 (open_tag (["<" ">"]) @punctuation.bracket.jsx)
 (close_tag (["</" ">"]) @punctuation.bracket.jsx)
 (self_closing_element_node (["<" "/>"]) @punctuation.bracket.jsx)
-; (jsx_attribute "=" @punctuation.delimiter.jsx)
+(node_attribute ("=" @punctuation.delimiter.jsx ))
