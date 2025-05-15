@@ -42,4 +42,4 @@ This extension uses the [tree-sitter-rstml](https://github.com/rayliwell/tree-si
 
 ## License
 
-MIT
+Apache-2.0
