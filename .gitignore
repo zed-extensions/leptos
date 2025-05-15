@@ -1,1 +1,3 @@
-grammars
+/grammars
+/target
+*.wasm
