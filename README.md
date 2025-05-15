@@ -1,17 +1,13 @@
 # Leptos Extension for Zed
 
-This extension adds support for the [Leptos](https://github.com/leptos-rs/leptos) Rust web framework to the Zed editor.
+This extension adds support for the [Leptos](https://github.com/leptos-rs/leptos) Rust web framework to the Zed editor. Primarily through syntax highlighting of `rstml` in Rust files.
 
 ## Features
 
-- Syntax highlighting for Leptos RSX within Rust files
 - Proper highlighting for Leptos template macros (`view!`, `html!`, etc.)
 - Integration with rust-analyzer for comprehensive language support
-- Auto-completion and syntax checking for Leptos components and attributes
 
 ## Installation
-
-This extension is installed automatically when you open a Leptos project in Zed. If you need to install it manually:
 
 1. Open Zed
 2. Go to Settings > Extensions
