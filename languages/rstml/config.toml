@@ -21,3 +21,9 @@ brackets = [
 ]
 completion_query_characters = ["-"]
 prettier_parser_name = "html"
+
+[jsx_tag_auto_close]
+open_tag_node_name = "open_tag"
+close_tag_node_name = "close_tag"
+jsx_element_node_name = "element_node"
+tag_name_node_name = "node_identifier"
