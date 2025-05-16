@@ -1,5 +1,5 @@
 name = "Leptos RSTML"
-id = "rstml"
+id = "leptos"
 version = "0.1.0"
 schema_version = 1
 description = "Support for Leptos RSTML in Zed"
