@@ -1,7 +1,7 @@
 name = "RSTML"
 grammar = "rstml"
 autoclose_before = ">})"
-block_comment = ["<!-- ", " -->"]
+line_comments = ["// "]
 brackets = [
     { start = "{", end = "}", close = true, newline = true },
     { start = "[", end = "]", close = true, newline = true },
