@@ -1,5 +1,16 @@
-("<" @open "/>" @close)
-("</" @open ">" @close)
-("<" @open ">" @close)
-("\"" @open "\"" @close)
-((element_node (open_tag) @open (close_tag) @close) (#set! newline.only))
+("<" @open
+  "/>" @close)
+
+("</" @open
+  ">" @close)
+
+("<" @open
+  ">" @close)
+
+("\"" @open
+  "\"" @close)
+
+((element_node
+  (open_tag) @open
+  (close_tag) @close)
+  (#set! newline.only))
