@@ -19,7 +19,7 @@ brackets = [
         "string",
     ] },
 ]
-completion_query_characters = ["-"]
+completion_query_characters = ["-", "."]
 prettier_parser_name = "html"
 
 [jsx_tag_auto_close]
